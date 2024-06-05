@@ -169,18 +169,26 @@
 <!--</style>-->
 
 
+<main class="main bg-gradient-to-t from-[#FF4F2D] via-[#FF8B74] to-[#FF89FF] min-h-screen text-white flex flex-col items-center">
+  <!-- Title -->
+  <h1 class="text-7xl pt-8 font-bold text-[#FF4F2D]">Collab
+    <span class="text-white">Doc</span>
+  </h1>
 
+  <!-- Content Wrapper for Centering -->
+  <div class="flex-grow flex items-center justify-center w-full">
+    <div class="flex gap-x-5">
+      <!-- Create Document -->
+      <div>
+        <button class="bg-white text-[#FF4F2D] px-4 py-2 rounded-lg">Create Document</button>
+      </div>
 
-
-
-
-<main class="main bg-gradient-to-t from-[#FF4F2D] via-[#FF8B74] to-[#FF89FF] min-h-screen text-white">
-  <div class="flex items-center flex-col">
-      <h1 class="text-7xl pt-8 font-bold text-[#FF4F2D]">Collab
-        <span class="text-white">Doc</span>
-      </h1>
-
+      <!-- Enter Code -->
+      <div>
+        <input type="text" placeholder="Enter Code" class="bg-white text-[#FF4F2D] px-4 py-2 rounded-lg">
+      </div>
+    </div>
   </div>
 </main>
 
-<router-outlet />
+<router-outlet/>
